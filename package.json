@@ -258,6 +258,11 @@
                 "key": "ctrl+delete",
                 "command": "deleteWordStartRight",
                 "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "tab",
+                "command": "tab",
+                "when": "editorTextFocus && !editorReadonly"
             }
         ]
 
